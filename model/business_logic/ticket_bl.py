@@ -3,7 +3,7 @@ from model.entity.ticket import *
 from model.data_access.ticket_da import TicketDa
 
 
-class ticket_bl:
+class TicketBl:
     def save(self, ticket):
         time_now = datetime.now()
         min_start_time = time_now + timedelta(hours=5)
